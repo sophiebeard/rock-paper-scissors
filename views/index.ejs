@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors! Home Page</title>
+</head>
+
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <h3>Please, fill out your names:</h3>
+    <form action='/game' method="post">
+        <div>
+            <label for="player1">Player 1:</label>
+            <input type="text" id="name1" name="player1">
+        </div>
+        <br />
+        <div>
+            <label for="player2">Player 2:</label>
+            <input type="text" id="name2" name="player2">
+        </div>
+        <br />
+        <button type="submit" id="submit-names">Let's Play!</button>
+    </form>
+</body>
+
+</html>

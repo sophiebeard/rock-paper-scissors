@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors! Game Page One Player</title>
+</head>
+
+<body>
+    <h1>Choose your weapon!</h1>
+    <form action="/winnerOnePlayer" method="post">
+        <div class="card-body">
+            <h3 class="card-title">
+                <%= name %>,
+            </h3>
+            <label for="weapon">Choose your weapon:</label>
+            <select name="weapon" id="weapon">
+                <option value="rock" name="weapon">Rock</option>
+                <option value="paper" name="weapon">Paper</option>
+                <option value="scissors" name="weapon">Scissors</option>
+                <option value="lizard" name="weapon">Lizard</option>
+                <option value="spock" name="weapon">Spock</option>
+            </select>
+        </div>
+        <br />
+        <input type="submit" class="btn btn-info" value="3, 2, 1...Shoot!">
+</body>
+
+</html>
